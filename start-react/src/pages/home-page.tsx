@@ -94,7 +94,7 @@ export default function HomePage() {
           gap-y-20 xl:gap-y-32 xl:pt-32 pt-12 pb-40">
             {(fillterRecipes.length > 0 ? fillterRecipes : 
             recipes).map((recipe: RecipeType, idx: number) => (
-                     <a href={`/recipies/${recipe.id} `}><Card
+                     <a href={`/recipes/${recipe.id} `}><Card
                      key={`${recipe.name} - ${idx}`}
                       className="flex flex-col bg-orange-50 hover:scale-105 ease-in duration-200 xl:min-h-[600px] fancyGradient">
                      <CardHeader>
